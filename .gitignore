@@ -6,3 +6,23 @@ node_modules/
 public/
 .deploy*/
 _multiconfig.yml
+
+# Hexo
+.cache/
+*.tmp
+
+# Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Vercel
+.vercel/
+
+# pnpm
+.pnpm-store/
+
+# 误装的 npm lockfile（项目用 pnpm）
+package-lock.json
+yarn.lock
